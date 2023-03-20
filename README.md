@@ -17,6 +17,7 @@ Add this to your package's `pubspec.yaml` file:
 ```yaml
 dependencies:
   flutter_infrared: ^0.1.0
+```
 Then run flutter pub get.
 
 Usage
