@@ -24,11 +24,6 @@ Import the package:
 
 import 'package:flutter_infrared/flutter_infrared.dart';
 ```
-Create an instance of InfraredService:
-```dart
-
-final infraredService = InfraredService();
-```
 Send an IR command:
 ```dart
 
@@ -36,7 +31,8 @@ int frequency = 38000;
 List<int> pattern = [/* ... */];
 
 
-await infraredService.sendCommand(frequency, pattern);
+await FlutterInfrared.sendCommand(frequency, pattern);
+
 ```
 ### Example
 
